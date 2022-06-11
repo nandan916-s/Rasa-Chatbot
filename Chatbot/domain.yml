@@ -1,0 +1,122 @@
+version: '3.1'
+intents:
+- affirm
+- bot_challenge
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- third_semester_courses
+- fourth_semester_courses
+- fifth_semester_courses
+- sixth_semester_courses
+- seventh_semester_courses
+- eighth_semester_courses
+- faculties
+- placement_details
+
+entities:
+- person
+
+responses:
+  utter_greet:
+  - text: Hey I am ALP.How can I help you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_third_semester_courses:
+  - text: "DATA STRUCTURES AND APPLICATIONS
+           OBJECT ORIENTED PROGRAMMING WITH JAVA
+           INTERNET AND WEB PROGRAMMING
+           COMPUTER ORGANISATION
+           LOGIC DESIGN
+           DATA STRUCTURE LABORATORY WITH APPLICATIONS
+           JAVA PROGRAMMING LABORATORY WITH MINI PROJECT"
+
+  utter_fourth_semester_courses:
+  - text: " DESIGN AND ANALYSIS OF ALGORITHMS
+            MICROPROCESSORS AND MICROCONTROLLERS
+            OPERATING SYSTEM
+            DATABASE MANAGEMENT SYSTEM
+            DESIGN AND ANALYSIS OF ALGOTRITHM LABORATORY
+            DBMS LABORATORY WITH MINI PROJECT"
+
+  utter_fifth_semester_courses:
+  - text: "  COMPUTER NETWORKS
+              ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+              SOFTWARE ENGINEERING
+              CRYPTOGRAPHY
+              MOBILE APPLICATION DEVELOPMENT
+              OBJECT ORIENTED MODELLING AND DESIGN
+              EMERGING TECHNOLOGIES
+              COMPUTER NETWORK LABORATORY WITH MINI PROJECT
+              ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING LABORATORY WITH APPLICATION"
+
+  utter_sixth_semester_courses:
+  - text: "ENGINEERING ECONOMICS
+            SYSTEM SOFTWARE
+            CYBER SECURITY
+            CLOUD COMPUTING APPLICATIONS
+            INTERNET OF THINGS
+            SYSTEM SOFTWARE AND OPERATING SYSTEM LAB WITH MINI-PROJECT
+            CYBER SECURITY LAB WITH APPLICATIONS
+            MINI PROJECT"
+
+  utter_seventh_semester_courses:
+  - text: "BIG DATA ANALYTICS
+           WIRELESS SENSOR NETWORK
+           BLOCK CHAIN TECHNOLOGIES
+           PROJECT WORK 
+           CLOUD AND BIG DATA LABORATORY WITH MINOR PROJECT"
+
+  utter_eighth_semester_courses:
+  - text: "MAJOR PROJECT
+           TECHNICAL SEMINAR
+           INTERNSHIP"
+
+  utter_faculties:
+  - text: "Click on this link to know more about the faculty details 'https://www.dsce.edu.in/computer-science-engineering/faculty-cse'"
+
+  
+  utter_placement_details:
+  - text: "PLACEMENT OFFICER's DETAILS:-
+
+Mr. M.N GURUVENKATESH
+Vice President - Placements & Skill Development Centre,
+Dayananda Sagar Institutions Kumaraswamy Layout, Bangalore- 560 111.
+Phone : +91 80 26663981 / 42161497 Mobile : +91 9844165956,
+Mail : gm-cr@dayanandasagar.edu , dsi_placement@yahoo.com , www.dayanandasagar.edu
+
+Mr. NAGESH PURANIK
+Associate Director - Placements
+Dayananda Sagar Institutions Kumaraswamy Layout, Bangalore- 560 111.
+Phone : +91 80 26663981 Mobile : +91 9740084217
+Mail : placement@dayanandasagar.edu , www.dsce.edu.in
+
+Prestigious Placement Partners:-
+
+AMAZON
+ZSCALAR
+JP MORGAN
+KALEYRA
+ORACLE
+PAYTM
+
+For More Information kindly click the given link-> 'https://www.dsce.edu.in/computer-science-engineering/placements-cse'"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_greet

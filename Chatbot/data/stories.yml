@@ -1,0 +1,76 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: courses path
+  steps:
+  - intent: third_semester_courses
+  - action: utter_third_semester_courses
+
+- story: courses path 1
+  steps:
+  - intent: fourth_semester_courses
+  - action: utter_fourth_semester_courses
+
+- story: courses path 2
+  steps:
+  - intent: fifth_semester_courses
+  - action: utter_fifth_semester_courses
+
+- story: courses path 3
+  steps:
+  - intent: sixth_semester_courses
+  - action: utter_sixth_semester_courses
+
+- story: courses path 4
+  steps:
+  - intent: seventh_semester_courses
+  - action: utter_seventh_semester_courses
+
+- story: courses path 5
+  steps:
+  - intent: eighth_semester_courses
+  - action: utter_eighth_semester_courses
+
+- story: faculties path
+  steps:
+  - intent: faculties
+  - action: utter_faculties
+
+- story: placement_details
+  steps:
+  - intent: placement_details
+  - action: utter_placement_details
+ 

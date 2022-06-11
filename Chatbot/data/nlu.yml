@@ -1,0 +1,176 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: third_semester_courses
+  examples: |
+   - What are the courses offered in 3rd sem?
+   - Courses offered in 3rd sem?
+   - Subjects in 3rd semester?
+   - What are subjects in 3rd semester?
+   - Number of courses in 3rd semester?
+   - Total courses offered in 3rd semester?
+   - 3rd sem courses?
+   - Laboratory in 3rd sem?
+   - number of laboratory subjects in 3rd sem?
+
+- intent: fourth_semester_courses
+  examples: |
+    - What are the courses offered in 4th sem?
+    - Courses offered in 4th sem?
+    - Subjects in 4th semester?
+    - What are subjects in 4th semester?
+    - Number of courses in 4th semester?
+    - Total courses offered in 4th semester?
+    - 4th sem courses?
+    - Laboratory in 4th sem?
+    - number of laboratory subjects in 4th sem?
+
+- intent: fifth_semester_courses
+  examples: |
+    - What are the courses offered in 5th sem?
+    - Courses offered in 5th sem?
+    - Subjects in 5th semester?
+    - What are subjects in 5th semester?
+    - Number of courses in 5th semester?
+    - Total courses offered in 5th semester?
+    - 5th sem courses?
+    - Laboratory in 5th sem?
+    - number of laboratory subjects in 5th sem?
+
+- intent: sixth_semester_courses
+  examples: |
+    - What are the courses offered in 6th sem?
+    - Courses offered in 6th sem?
+    - Subjects in 6th semester?
+    - What are subjects in 6th semester?
+    - Number of courses in 6th semester?
+    - Total courses offered in 6th semester?
+    - 6th sem courses?
+    - Laboratory in 6th sem?
+    - number of laboratory subjects in 6th sem?
+
+- intent: seventh_semester_courses
+  examples: |
+    - What are the courses offered in 7th sem?
+    - Courses offered in 7th sem?
+    - Subjects in 7th semester?
+    - What are subjects in 7th semester?
+    - Number of courses in 7th semester?
+    - Total courses offered in 7th semester?
+    - 7th sem courses?
+    - Laboratory in 7th sem?
+    - number of laboratory subjects in 7th sem?
+
+- intent: eighth_semester_courses
+  examples: |
+    - What are the courses offered in 8th sem?
+    - Courses offered in 8th sem?
+    - Subjects in 8th semester?
+    - What are subjects in 8th semester?
+    - Number of courses in 8th semester?
+    - Total courses offered in 8th semester?
+    - 8th sem courses?
+    - Laboratory in 8th sem?
+    - number of laboratory subjects in 8th sem?
+
+- intent: faculties
+  examples: |
+    - number of faculities?
+    - cse faculty information?
+    - who is the head of the department?
+    - faculties in cse department?
+    - Faculty
+
+
+- intent: placement_details
+  examples: |
+    - Placement details?
+    - Companies visited?
+    - Placement Statistics?
+    - What are the placement statistics?
+    - Information about Placement?
+    - Who is the placement Officer?
+    - What is the status of Placement?
+    - Placement Partners?
