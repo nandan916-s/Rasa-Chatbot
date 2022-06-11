@@ -19,7 +19,22 @@ intents:
 entities:
 - person
 
+ actions:
+- utter_name
+- action_save_name
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_intro
+
 responses:
+ utter_name:
+  - text: "Hi! Nice to meet you {name}!"
+
+  utter_intro:
+  - text: "Hi! My name is ALP :) Nice to meet you! What is your name?"
   utter_greet:
   - text: Hey I am ALP.How can I help you?
   utter_cheer_up:
